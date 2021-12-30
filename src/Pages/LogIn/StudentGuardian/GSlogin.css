@@ -1,0 +1,75 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css" );
+/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+
+.GSlogin-sec{
+    background-image: url('kelly-sikkema.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    /* font-family: 'Numans', sans-serif; */
+    margin-bottom: 0;
+    position: relative;
+}
+.Adminlogin-sec{
+    /* background: gray; */
+    /* background: #F2F2F2; */
+    /* background: #222D32; */
+    /* background: #1A2226; */
+    background: #0264d6; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* font-family: 'Numans', sans-serif; */
+  
+ 
+}
+
+.container{
+    height: auto;
+    align-content: center;
+
+}
+
+.card{
+    height: 24em;
+    margin-top: 12em;
+    margin-bottom: 10em;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    margin-left:0 !important ;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.login_btn{
+    color: black !important;
+    background-color: #FFC312 !important;
+    width: auto !important;
+}
+
+.login_btn:hover{
+    background-color: white !important;
+}

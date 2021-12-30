@@ -1,0 +1,223 @@
+/*Home*/
+:root {
+    --primary-color: #007AF3;
+}
+    section {
+    background: #F2F2F2;
+    padding: 5em 2em;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .left-col h1 {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top: .2em;
+  }
+  
+  .primary-cta {
+    background: var(--primary-color) !important;
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .hero-img {
+    width: 70%;
+    margin-top: 3em;
+  }
+  .left-col .watch-sched-cta {
+    display: block;
+    margin-top: 1em;
+    color: black;
+    margin-right: 0.5em;
+    font-size: 1em;
+  }
+  
+  .left-col .watch-sched-cta img {
+    margin-right: 0.5em;
+    size: inherit;
+    width:3ch;
+    
+  }
+  .testimonials-section {
+    background: var(--primary-color);
+    color: white;
+  
+    
+  }
+  .testimonials-section li {
+    background: #006BD6;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+    list-style-type: none 
+  }
+  .testimonials-section li img {
+    width: 5em;
+    height: 5em;
+    border: 5px solid #006BD6;
+    border-radius: 50%;
+    margin-top: -4.5em;
+  }
+  section.contact-section {
+    background: #20272E;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  
+  
+  .testimonials-section h2{
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  
+  .contact-section h2{
+    text-align: center;
+  }
+  form{
+    font-size: 1.1em;
+    margin-bottom: -6em;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-size: contain;
+  }
+  
+  .contact-section label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+    display: inline-block;
+    padding: 0.8em 2em;
+    width: unset;
+    cursor: pointer;
+  }
+  .contact-section img {
+    display: none;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .testimonials-section .instruct {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .testimonials-section .instruct li {
+        margin: 0 1em 4em;
+        width: 20em;
+        
+      } 
+  
+}
+@media only screen and (min-width: 1256px) {
+     /*Home*/
+  section {
+    padding: 6em 4em;
+  }
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .hero .left-col {
+    margin: 3em 3em 0 5em;
+    margin-top: 4.5em;
+    text-align: center;
+  }
+  .hero .left-col h1 {
+    text-align: center;
+      font-size: 3em;
+      width: 90%;
+      
+  }
+  .hero-img {
+    width: 30%;
+    margin-right: 8em;
+  }
+
+  .primary-cta{
+    margin-right: 2.5em;
+    
+  }
+
+  .left-col .watch-sched-cta {
+    
+    margin-top: 2em;
+    margin-right: 4.5em;
+    
+  }
+  .contact-section{
+    position: relative;
+  }
+  .contact-section img {
+    display: block;
+    position:absolute;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    bottom: -2.5em;
+  }
+  .contact-section h2{
+    margin-right: 12em;
+    margin-left: 7em;
+  }
+  .contact-section form{
+    margin-bottom: -6em;
+    margin-left: 14em;
+    margin-right: 22em;
+    background-size: contain;
+  }
+  .contact-section:before {
+    z-index: 0;
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 20em;
+    background: #006BD6;
+    left: 0;
+    top: -4em;
+  }
+  .contact-section:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 20em;
+    background: url("./dots.svg") no-repeat;
+    left: 4.5em;
+    top: 2em;
+  }
+
+}

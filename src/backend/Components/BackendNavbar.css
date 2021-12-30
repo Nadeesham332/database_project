@@ -1,0 +1,10 @@
+@media only screen and (max-width: 992px) {
+    .navbar ul.primary-nav label{
+        display: none;
+    }
+}
+
+input[type="date"]:not(.has-value):before{
+    color: gray;
+    content: attr(placeholder);
+  }

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Varela+Round'); 
+/* @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'); */
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
+@import url('https://code.jquery.com/jquery-3.5.1.min.js');
+/* @import url('https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'); */
+/* @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js');  */
+
+* {
+    font-family: 'Varela Round', sans-serif ;
+  }
+.modal-fade{
+   
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+    background-image: url("reality-project.jpg");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.modal-login {		
+      color: white;
+      width: auto;
+}
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+.modal-login .modal-header {
+    border-bottom: none;   
+    position: relative;
+    justify-content: center;
+    
+}
+.modal-login h4 {
+    text-align:left;
+    font-size: 26px;
+    margin: 50px -1.75em -80px ;
+}
+.modal-login h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px 0 -15px;
+}
+.modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+}	
+
+.modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: -2em;
+    right: 0;
+    top: -85px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 0;
+    padding: 15px;
+}
+.modal-login .avatar img {
+    width: 150%;
+}
+
+.modal-login .btn:hover, .modal-login .btn:focus {
+    background: #45aba6 !important;
+    outline: none;
+   
+}
+
+
+.modal-fade .c-list{
+    font-size: 1.3em !important;
+}

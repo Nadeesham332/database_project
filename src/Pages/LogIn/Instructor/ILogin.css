@@ -1,0 +1,22 @@
+.form-instructor{
+    background-image: url('ola-syrocka.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    font-family: 'Numans', sans-serif;
+    margin-bottom: 0;
+    position: relative;
+  }
+  
+  .form-instructor .modal-content{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 27em;
+    height: 24em;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  }

@@ -1,0 +1,26 @@
+input[type="datetime-local"]:before{
+  content: 'Scheduling Date and Time';
+  color:#777777;
+  text-align: left;
+  width:100%;
+
+}
+
+input[type="datetime-local"]:active::before, input[type="datetime-local"]:valid:before,input[type="datetime-local"]:hover:before, input[type="datetime-local"]:visited:before,  input[type="datetime-local"]:focus::before{
+  content:normal;
+  width: 100%;
+}
+@media (max-width: 991px) {
+
+  .ftco-section .crudAssessTabel {
+     
+  /* width: auto; */
+   
+    width:100% !important;
+      overflow-x: auto;
+
+  }
+
+}
+
+

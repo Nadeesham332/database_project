@@ -1,0 +1,16 @@
+
+.copyrights{
+    font-size: 1em; 
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    color: black;
+    text-align: center;
+    list-style-type: none ;
+  }
+
+  @media only screen and (min-width: 1256px) {
+
+    .cp-home{
+        text-align: left;
+      }
+  }

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #007AF3;
+}
+
+* {
+  margin: 0;
+  font-family: 'Poppins';
+}
+.navbar {
+  background: white !important;
+  padding: 1em !important;
+  position: sticky !important;
+  top:0 !important;
+  z-index: 999; 
+}
+
+
+.navbar .logo {
+  text-decoration: none !important;
+  font-weight: bold !important;
+  color: black !important;
+  font-size: 1.2em !important;
+  background: white !important;
+  margin-top: -0.1em !important;
+  margin-bottom: auto !important;
+}
+.navbar span {
+  background: white !important;
+  color: var(--primary-color) !important;
+}
+
+.navbar .nav {
+  display: none !important;
+  
+}
+
+.navbar .container {
+  display: flex !important;
+  place-content: space-between !important;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer !important;
+}
+
+.navbar a {
+  color: white !important;
+  text-decoration: none !important;
+}
+.navbar .primary-nav button {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar ul {
+  list-style-type: none !important; 
+  margin: 0 auto auto auto!important;
+  padding: 0 !important;
+}
+
+
+.navbar .mobile-menu-exit {
+  float: right !important;
+  margin: .5em !important;
+  cursor: pointer !important;
+}
+
+a:hover {
+  font-weight: bold !important;
+}
+.navbar button:hover {
+  font-weight: bold !important;
+  text-decoration: none;
+}
+
+.navbar .nav.menu-btn {
+  display: block !important;
+  
+}
+
+.navbar nav {
+  position: fixed !important;
+  z-index: 999 !important;
+  width: 50% !important;
+  right: 0 !important;
+  top: 0 !important;
+  background: #20272E !important;
+  height: 100vh !important;
+  padding: 1em !important;
+  overflow-y: scroll !important;
+}
+
+.navbar ul.primary-nav {
+  margin-top: 5em !important;
+  text-align: right !important;
+  font-size: 1.3em !important;
+  padding: .5em !important;
+} 
+.navbar ul.secondary-nav {
+  margin-top: 2em !important;
+  font-size: 1.3em !important;
+  text-align: right !important;
+  padding: .5em !important;
+}
+.navbar ul.secondary-nav .go-premium-cta {
+  margin-left: 1em !important;
+} 
+.navbar ul.secondary-nav label{
+ color: var(--primary-color) !important;
+}
+
+.navbar .li:hover {
+  font-weight: bold !important;
+}
+.navbar .primart-nav .active {
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+  .navbar .mobile-menu, .navbar .mobile-menu-exit {
+    display: none !important;
+  }
+
+  .navbar .container {
+    display: grid !important;
+    grid-template-columns: 150px auto !important;
+    justify-content: unset !important;
+  }
+
+  .navbar nav {
+    display: flex !important;
+    justify-content: space-between !important;
+    background: none !important;
+    position: unset !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 0 !important;
+    overflow-y: inherit !important;
+  }
+
+  .navbar .container {
+    width: 815px !important;
+    margin: 0 auto !important;  
+}
+  
+  .navbar ul {
+    display: flex !important;
+  }
+
+  .navbar a {
+    color: black !important;
+    font-size: 1em !important;
+    padding: .1em 1em !important;
+  }
+  .navbar .primary-nav button {
+    color: black !important;
+    font-size: 1em !important;
+    padding: .1em 1em !important;
+    text-decoration: none;
+  }
+
+  .navbar ul.primary-nav, .navbar ul.secondary-nav {
+    margin: 0 auto!important;
+    font-size: 1em !important;
+    padding: .1em 1em !important; 
+  }
+  .navbar ul.secondary-nav{
+    margin: 0 -2em!important;
+  }
+
+  .navbar ul.secondary-nav label{
+    color: black !important;
+  }
+
+  .navbar li.go-premium-cta a {
+    color: var(--primary-color) !important;
+    border: 3px solid var(--primary-color) !important;
+    font-weight: bold !important;
+    border-radius: 5em !important;
+    margin-top: -.2em !important;
+  }
+  .navbar li.go-premium-cta a:hover {
+    background: var(--primary-color) !important;
+    color: white !important;
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1256px) {
+  .navbar .container {
+      width: 1080px !important;
+      margin: 0 auto !important;  
+  }
+
+
+
+}
+
