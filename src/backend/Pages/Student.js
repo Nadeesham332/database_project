@@ -154,7 +154,7 @@ const StudentDB = () => {
           document.getElementById('app-root').style.filter = 'blur(0)';
           document.getElementById('app-root').style.pointerEvents = "all";
           setInsert(false);
-          window.location.reload(false);
+          window.location.reload(false)
 
         }
         else {
