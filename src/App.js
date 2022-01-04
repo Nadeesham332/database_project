@@ -12,13 +12,13 @@ import InsertResults from './Pages/InsertResults/InsertResults';
 import ILogin from './Pages/LogIn/Instructor/ILogin';
 import About from './Pages/About/About';
 import Vassessment from './Pages/ViewAssessment/Vassessment';
-import StudentDB from './backend/Pages/Student';
-import GuardianDB from './backend/Pages/Guardian';
-import EmployeeDB from './backend/Pages/Employee';
-import CourseDB from './backend/Pages/Courses';
-import AssessmentDB from './backend/Pages/Assessment';
-import ResultReportDB from './backend/Pages/ResultReport'
-import AdminLog from './backend/Pages/admin'
+import StudentDB from './Dashboard/Pages/Student';
+import GuardianDB from './Dashboard/Pages/Guardian';
+import EmployeeDB from './Dashboard/Pages/Employee';
+import CourseDB from './Dashboard/Pages/Courses';
+import AssessmentDB from './Dashboard/Pages/Assessment';
+import ResultReportDB from './Dashboard/Pages/ResultReport'
+import AdminLog from './Dashboard/Pages/admin'
 
 function App() {
 
