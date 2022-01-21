@@ -37,8 +37,14 @@ const Home = () => {
         <>
             <Navbar />
             <section className="hero">
+                {/* <h2 className='float-left'>Welcome To</h2>
+                <br />
+                <br />
+                <h2 className='float-left'>Engineering Foundation Institute</h2> */}
                 <div className="container">
+
                     <div className="left-col">
+
                         <h1>VIEW YOUR / YOUR STUDENT'S RESULTS</h1>
                         <a href="/StudentGuardianLogIn" className="primary-cta btn-info ">Click here!</a>
                         <a href="/CourseSelection" className="watch-sched-cta "  >
