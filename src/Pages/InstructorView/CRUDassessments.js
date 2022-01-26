@@ -94,9 +94,9 @@ const CRUDassessments = () => {
     localStorage.setItem('viewAssessment', JSON.stringify(viewAssessment));
 
     //get data in the session
-    let data = localStorage.getItem('viewAssessment');
-    data = JSON.parse(data);
-    console.log(data);
+    // let data = localStorage.getItem('viewAssessment');
+    // data = JSON.parse(data);
+    // console.log(data);
     window.location.href = `/ViewAssessment`;
 
   }

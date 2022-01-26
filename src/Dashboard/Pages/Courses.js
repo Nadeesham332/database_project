@@ -63,7 +63,7 @@ const CourseDB = () => {
 
     axios.post('http://localhost/result-sheet-system/update_courseDB.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data > 0) {
           document.getElementById('app-root').style.filter = 'blur(0)';
           document.getElementById('app-root').style.pointerEvents = "all";
@@ -127,7 +127,7 @@ const CourseDB = () => {
 
     axios.post('http://localhost/result-sheet-system/insert_CourseDB.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data > 0) {
           document.getElementById('app-root').style.filter = 'blur(0)';
           document.getElementById('app-root').style.pointerEvents = "all";

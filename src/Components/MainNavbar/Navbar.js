@@ -12,7 +12,7 @@ const Navbar = () => {
     //destructuring pathname from location
     const { pathname } = location;
     const { hash } = location;
-    console.log(hash)
+    // console.log(hash)
 
     const updateMedia = () => {
         setDesktop(window.innerWidth >= 992);

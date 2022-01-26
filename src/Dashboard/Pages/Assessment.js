@@ -80,7 +80,7 @@ const AssessmentDB = () => {
 
     axios.post('http://localhost/result-sheet-system/update_assessment.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data === 0) {
           setUpdate(false);
           setUpdatingError(true);
@@ -148,7 +148,7 @@ const AssessmentDB = () => {
 
     axios.post('http://localhost/result-sheet-system/insert_assessmentDB.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data === 1) {
           document.getElementById('app-root').style.filter = 'blur(0)';
           document.getElementById('app-root').style.pointerEvents = "all";

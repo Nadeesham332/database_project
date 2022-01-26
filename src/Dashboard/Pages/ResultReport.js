@@ -131,7 +131,7 @@ const ResultReportDB = () => {
 
     axios.post('http://localhost/result-sheet-system/insert_resultDB.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data === 1) {
           document.getElementById('app-root').style.filter = 'blur(0)';
           document.getElementById('app-root').style.pointerEvents = "all";

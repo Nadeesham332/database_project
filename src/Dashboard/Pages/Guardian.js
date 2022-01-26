@@ -62,7 +62,7 @@ const GuardianDB = () => {
 
     axios.post('http://localhost/result-sheet-system/update_guardianDB.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data === 0) {
           setUpdate(false);
           setUpdatingError(true);

@@ -32,7 +32,7 @@ const GSlogin = () => {
 	useEffect(() => {
 		axios.get('http://localhost/result-sheet-system/log_to_view_result.php')
 			.then(res => {
-				console.log(res.data)
+				// console.log(res.data)
 				setAccessors(res.data)
 			})
 			.catch(

@@ -142,7 +142,7 @@ const EmployeeDB = () => {
 
     axios.post('http://localhost/result-sheet-system/insert_EmployeeDB.php', form)
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data > 0) {
           document.getElementById('app-root').style.filter = 'blur(0)';
           document.getElementById('app-root').style.pointerEvents = "all";
