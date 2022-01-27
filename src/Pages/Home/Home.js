@@ -6,13 +6,14 @@ import { useState, useEffect } from 'react';
 import Navbar from '../../Components/MainNavbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import axios from 'axios';
-import './Home.css'
+import './Home.css';
 
 
 const Home = () => {
 
     const [instructors, setInstructors] = useState([]);
     const [conError, setConError] = useState(false);
+    const [isSuccess, setIsSuccess] = useState(false);
 
     let cnt = 0;
 
@@ -31,6 +32,8 @@ const Home = () => {
             );
 
     }, [])
+
+
 
     return (
 
@@ -79,11 +82,16 @@ const Home = () => {
             </section>
 
             <section className="contact-section" id="contact">
+ 
                 <div className="container">
                     <div className="contact-left">
                         <h2>Contact</h2>
 
-                        <form action="">
+                        <form action='/' method='post' onSubmit={(e)=>{
+                            e.preventDefault();
+                            alert("Thank you! We'll be in touch soon.");
+                            setIsSuccess(true)}
+                        }>
                             <label htmlFor="name">Name or ID</label>
                             <input type="text" id="name" name="name" />
 
@@ -96,7 +104,12 @@ const Home = () => {
                     </div>
 
                 </div>
+               
+               {isSuccess ? window.location.reload(false) : null}
+
+        
             </section>
+
             <Footer className="cp-home" />
 
         </>
