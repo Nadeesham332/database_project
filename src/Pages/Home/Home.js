@@ -1,6 +1,12 @@
 import illustration from './illustration.svg';
 import exam from './exam-svgrepo-com.svg';
-import person from './person.jpg';
+import person1 from './person2.jpg';
+import person2 from './person3.jpg';
+import person3 from './person4.jpg';
+import person4 from './person5.jpg';
+import person5 from './person6.jpg';
+import person6 from './person7.jpg';
+import person7 from './person8.jpg';
 import phone from './holding-phone.jpg';
 import { useState, useEffect } from 'react';
 import Navbar from '../../Components/MainNavbar/Navbar';
@@ -14,6 +20,7 @@ const Home = () => {
     const [instructors, setInstructors] = useState([]);
     const [conError, setConError] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
+    const persons=[person1,person2,person3,person4,person5,person6,person7];
 
     let cnt = 0;
 
@@ -40,10 +47,7 @@ const Home = () => {
         <>
             <Navbar />
             <section className="hero">
-                {/* <h2 className='float-left'>Welcome To</h2>
-                <br />
-                <br />
-                <h2 className='float-left'>Engineering Foundation Institute</h2> */}
+                {/* <h2 className='float-center' style={{color:'red'}}>Welcome To Engineering Foundation Institute</h2> */}
                 <div className="container">
 
                     <div className="left-col">
@@ -67,7 +71,7 @@ const Home = () => {
                             cnt++;
                             return (
                                 <li key={cnt}>
-                                    <img src={person} alt="Person" />
+                                    <img src={persons[cnt-1]} alt={result.iname} />
 
                                     <blockquote>{result.iname}</blockquote>
                                     <hr />
