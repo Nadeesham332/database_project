@@ -22,8 +22,6 @@ const Home = () => {
     const [isSuccess, setIsSuccess] = useState(false);
     const persons=[person1,person2,person3,person4,person5,person6,person7];
 
-    let cnt = 0;
-
     useEffect(() => {
 
         axios.get('http://localhost/result-sheet-system/course_instructors.php')
@@ -67,11 +65,11 @@ const Home = () => {
                 <div className="container">
                     <h2>Course Instructors</h2>
                     <div className="instruct">
-                        {instructors.map((result) => {
-                            cnt++;
+                        {instructors.map((result,key) => {
+                            // console.log(key)
                             return (
-                                <li key={cnt}>
-                                    <img src={persons[cnt-1]} alt={result.iname} />
+                                <li key={key}>
+                                    <img src={persons[key]} alt={result.iname} />
 
                                     <blockquote>{result.iname}</blockquote>
                                     <hr />
