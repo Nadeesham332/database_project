@@ -1,9 +1,8 @@
+import { useState, useEffect  } from 'react';
+import { useLocation } from "react-router-dom";
+import './Navbar.css'
 import menu from './menu.svg';
 import exit from './exit.svg';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import './Navbar.css'
-import { useLocation } from "react-router-dom";
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);

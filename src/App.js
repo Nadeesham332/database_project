@@ -1,5 +1,5 @@
-import Home from './Pages/Home/Home.js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './Pages/Home/Home.js';
 import NotFound from './Pages/NotFound/NotFound';
 import Cselect from './Pages/CourseSelection/Cselect';
 import Adetails from './Pages/AssessmentDetails/Adetails';

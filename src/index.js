@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; //convert React into valid JavaScript
 import ReactDOM from 'react-dom';
 
 import App from './App';

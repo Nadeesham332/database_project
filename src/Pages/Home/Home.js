@@ -1,3 +1,8 @@
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import Navbar from '../../Components/MainNavbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
+import './Home.css';
 import illustration from './illustration.svg';
 import exam from './exam-svgrepo-com.svg';
 import person1 from './person2.jpg';
@@ -8,11 +13,6 @@ import person5 from './person6.jpg';
 import person6 from './person7.jpg';
 import person7 from './person8.jpg';
 import phone from './holding-phone.jpg';
-import { useState, useEffect } from 'react';
-import Navbar from '../../Components/MainNavbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
-import axios from 'axios';
-import './Home.css';
 
 
 const Home = () => {

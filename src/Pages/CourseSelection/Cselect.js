@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Cselect.css';
-//bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-//Axios for get request
 import axios from 'axios';
-import assessment from './assessment.jpg';
+import './Cselect.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../../Components/MainNavbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
+import assessment from './assessment.jpg';
 
 class Cselect extends React.Component {
     // initialize an object's state in a class
